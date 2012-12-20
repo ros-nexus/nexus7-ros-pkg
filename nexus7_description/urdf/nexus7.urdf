@@ -1,0 +1,18 @@
+<robot name="nexus7">  
+
+  <link name="base_link">
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://nexus7_description/meshes/nexus7.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://nexus7_description/meshes/nexus7.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+  </link>
+
+</robot>

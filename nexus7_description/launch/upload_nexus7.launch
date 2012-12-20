@@ -1,0 +1,4 @@
+<launch>
+    <!-- send urdf to param server -->
+    <param name="robot_description" command="cat $(find nexus7_description)/urdf/nexus7.urdf" />
+</launch>

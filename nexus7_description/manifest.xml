@@ -1,0 +1,11 @@
+<package>
+  <description brief="nexus7_description">
+    This package contains the description for the Google/ASUS Nexus 7.
+  </description>
+  <author>Chad Rockey</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/nexus7_description</url>
+  <depend package="urdf"/>
+  <depend package="xacro"/>
+</package>
