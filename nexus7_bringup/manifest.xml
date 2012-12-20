@@ -1,0 +1,15 @@
+<package>
+  <description brief="neuxus7_bringup">
+    This package contains launch files and configuration for the Google/ASUS Nexus 7.
+  </description>
+  <author>Chad Rockey</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/nexus7_bringup</url>
+
+  <depend package="tf" />
+  <depend package="rospy" />
+  <depend package="sensor_msgs" />
+
+  <depend package="nexus7_description" />
+</package>
